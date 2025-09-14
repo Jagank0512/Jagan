@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jagan K — Designer</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <a href="#" class="brand">JAGAN<span>K</span></a>
+    <nav class="nav">
+      <a href="#skills">Skills</a>
+      <a href="#projects">Project</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="menuBtn" class="hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="drawer" class="drawer">
+    <a href="#skills" class="drawer-link">Skills</a>
+    <a href="#projects" class="drawer-link">Project</a>
+    <a href="#contact" class="drawer-link">Contact</a>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" aria-label="Intro">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="kicker">UI/UX</p>
+      <h1 class="headline" aria-label="Designer">DESIGNER</h1>
+      <p class="subtitle">
+        I design clean, user-friendly interfaces and smooth product experiences.
+      </p>
+      <div class="cta-row">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#contact" class="btn ghost">Contact</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section container">
+    <div class="section-head">
+      <h2>Skills</h2>
+      <p class="muted">for UI/UX Designer</p>
+    </div>
+
+    <!-- Marquee Row -->
+    <div class="marquee">
+      <ul class="marquee-track">
+        <li>User Personas</li>
+        <li>Layout & Composition</li>
+        <li>User Research</li>
+        <li>Prototyping</li>
+        <li>Wireframing</li>
+        <li>Design System</li>
+        <li>User Journey Mapping</li>
+        <li>Visual Design</li>
+        <!-- duplicated for seamless loop -->
+        <li>User Personas</li>
+        <li>Layout & Composition</li>
+        <li>User Research</li>
+        <li>Prototyping</li>
+        <li>Wireframing</li>
+        <li>Design System</li>
+        <li>User Journey Mapping</li>
+        <li>Visual Design</li>
+      </ul>
+    </div>
+
+    <!-- Tools Row -->
+    <div class="tools">
+      <h3>UI/UX Tools</h3>
+      <div class="tool-chips">
+        <span class="chip">Figma</span>
+        <span class="chip">Adobe XD</span>
+        <span class="chip">Photoshop (Basic)</span>
+        <span class="chip">Illustrator (Basic)</span>
+        <span class="chip">Framer</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section container">
+    <div class="section-head">
+      <h2>Project</h2>
+      <p class="muted">Selected UI/UX work</p>
+    </div>
+
+    <!-- Grid -->
+    <div class="grid">
+      <!-- Card 1 -->
+      <article class="card">
+        <div class="thumb" style="--img: linear-gradient(135deg, #111 0%, #333 100%);">
+          <span class="badge">App</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">FLIGHT BOOKING WEBSITE</h3>
+          <p class="card-text">
+            Crafted a user-friendly flight booking flow focusing on clarity and responsive design.
+          </p>
+          <div class="card-actions">
+            <a class="btn small" href="https://drive.google.com/" target="_blank" rel="noopener">View Details</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="card">
+        <div class="thumb" style="--img: linear-gradient(135deg, #222 0%, #444 100%);">
+          <span class="badge">App</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Coffee Delivery</h3>
+          <p class="card-text">
+            Designed an intuitive coffee delivery experience that streamlines ordering and tracking.
+          </p>
+          <div class="card-actions">
+            <a class="btn small" href="https://drive.google.com/" target="_blank" rel="noopener">View Details</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="card">
+        <div class="thumb" style="--img: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);">
+          <span class="badge">Website</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">E-Commerce Website</h3>
+          <p class="card-text">
+            A clean storefront with simple product discovery and a hassle-free checkout flow.
+          </p>
+          <div class="card-actions">
+            <a class="btn small" href="https://drive.google.com/" target="_blank" rel="noopener">View Details</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="card">
+        <div class="thumb" style="--img: linear-gradient(135deg, #161616 0%, #2e2e2e 100%);">
+          <span class="badge">Menu</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Restaurant Menu</h3>
+          <p class="card-text">
+            A tasty digital menu layout highlighting hero dishes and quick scanning.
+          </p>
+          <div class="card-actions">
+            <a class="btn small" href="https://linkedin.com/" target="_blank" rel="noopener">View Details</a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Slider (for featured work) -->
+    <div class="slider">
+      <button class="arrow left" aria-label="Previous">&#8592;</button>
+      <div class="slider-track">
+        <div class="slide">
+          <div class="slide-thumb"></div>
+          <div class="slide-caption">
+            <h4>Flight Booking</h4>
+            <p>Simple, responsive booking flow.</p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-thumb"></div>
+          <div class="slide-caption">
+            <h4>Coffee Delivery</h4>
+            <p>Browse, order, and track with ease.</p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-thumb"></div>
+          <div class="slide-caption">
+            <h4>E-Commerce</h4>
+            <p>Clean grid, focused product details.</p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-thumb"></div>
+          <div class="slide-caption">
+            <h4>Restaurant Menu</h4>
+            <p>Visual, mouth-watering layout.</p>
+          </div>
+        </div>
+      </div>
+      <button class="arrow right" aria-label="Next">&#8594;</button>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section container">
+    <div class="section-head">
+      <h2>Contact</h2>
+      <p class="muted">Let’s build something great</p>
+    </div>
+
+    <div class="contact-wrap">
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="field">
+          <label>Name</label>
+          <input type="text" name="name" placeholder="Your name" required />
+        </div>
+        <div class="field">
+          <label>Email</label>
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </div>
+        <div class="field">
+          <label>Message</label>
+          <textarea name="message" rows="5" placeholder="Say hello…" required></textarea>
+        </div>
+        <button type="submit" class="btn primary">Send Message</button>
+        <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+
+      <div class="contact-side">
+        <div class="info">
+          <p><strong>Email:</strong> youremail@example.com</p>
+          <p><strong>Location:</strong> India</p>
+        </div>
+        <div class="socials">
+          <a href="#" aria-label="LinkedIn" class="social">LinkedIn</a>
+          <a href="#" aria-label="Dribbble" class="social">Dribbble</a>
+          <a href="#" aria-label="Behance" class="social">Behance</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Jagan K. All rights reserved.</span>
+      <a class="to-top" href="#" aria-label="Back to top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
